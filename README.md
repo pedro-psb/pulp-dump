@@ -1,3 +1,3 @@
-# pulp-dump
+# Pedro's Pulp Dump
 
-Debugging sessions, snippets and what not.
+Demos, presentations, debugging sessions, snippets and what not.
