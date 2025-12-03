@@ -1,0 +1,35 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 654ba7c1-4003-4e3d-b6c4-31319494fbcf
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/pedro-psb/pulp-dump
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  exports:
+    - format: pdf
+      template: lapreprint-typst
+site:
+  template: book-theme
+  actions:
+    - title: A URL
+      url: https://mystmd.org
+  nav:
+    - title: Knowledge Base
+      url: /docs
+    - title: Presentations
+      url: /presentations
+    - title: Demos
+      url: /demos
+    - title: Tooling
+      url: /tools
+  parts:
+    footer: ./docs/footer.md
+  options:
+    style: ./docs/css/footer.css
+  # template: article-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
